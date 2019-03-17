@@ -83,7 +83,7 @@ int main()
 	
 	cout<<"LA:";			//打印处理后的表
 	Displist(LA);         	
-	cout<<endl<<"LB:";
+	cout<<"LB:";
 	Displist(LB);
 
 	free(LA);
