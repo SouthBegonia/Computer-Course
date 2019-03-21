@@ -1,5 +1,5 @@
 /*
-程序功能：a，b为递增顺序表，编写顺序表c将ab表归并升序排列，要求ab表内相同元素只保留一个
+程序功能：a，b为非递减顺序表，编写顺序表c将ab表归并升序排列，要求ab表内相同元素只保留一个
 */
 #include<iostream>
 using namespace std;
@@ -7,7 +7,9 @@ using namespace std;
 
 int Unions(int a[], int na, int b[], int nb, int c[], int &nc)
 {
-	int i=0,j=0,k=0;
+	int i=0;    //数组标记i,j
+	int j=0;
+	int k=0;    //归并顺序表标记
 	
 	if(na+nb>Maxsize)
 		return -1;      //数组上溢
@@ -24,7 +26,7 @@ int Unions(int a[], int na, int b[], int nb, int c[], int &nc)
 					i++;
 			}else
 				c[k++] = a[i++];
-		}else
+		}else if(a[i]>b[j])
 		{
 			if(k>0)     //同上述处理
 			{
