@@ -33,6 +33,26 @@ void GetNext(Str substr, int next[])
 	}
 }
 
+void Getnextval(Str substr, int nextval[])
+{
+	int i=1,j=0;
+	nextval[1] = 0;
+
+	while(i<substr.len)
+	{
+		if(j==0 || substr.ch[i]==substr.ch[j])
+		{
+			++i;
+			++j;
+			if(substr.ch[i]!=substr.ch[j])
+				nextval[i] = j;
+			else
+				nextval[i] = nextval[j];
+		}else
+			j = nextval[j];
+	}
+}
+
 /*´´½¨Á½×Ö·û´®*/
 void CreateStr(Str &str)
 {
