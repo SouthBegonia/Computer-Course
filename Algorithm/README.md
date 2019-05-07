@@ -1,4 +1,4 @@
-排序算法
+[**排序算法**](https://github.com/SouthBegonia/Computer-Course/tree/master/Algorithm/Sort)
 
 - 插入类
 	- 直接插入排序
