@@ -70,36 +70,41 @@ for(i=1;i<n;i++)
 将序列按照 *步长gap(增量,初始 gap=length/2，后续 gap=gap/2)* 分割为多个子序列：
 
 例如本例中的{49,38,65,97,76,13,27,49,55,04} 按照 gap=5 分割为：
-  子序列1：49             13
-  子序列2：   38             27
-  子序列3：      65             49
-  子序列4：         97             55
-  子序列5:             76             04
+
+```
+子序列1：49             13
+子序列2：   38             27
+子序列3：      65             49
+子序列4：         97             55
+子序列5:             76             04
+```
 对这5个子序列进行直接插入排序，结果为：
-  子序列1：13             49
-  子序列2：   27             38
-  子序列3：      49             65
-  子序列4：         55             97
-  子序列5:             04             76
+```
+子序列1：13             49
+子序列2：   27             38
+子序列3：      49             65
+子序列4：         55             97
+子序列5:             04             76
+```
 
 同理按照 *gap=gap/2* 再次**分割序列**，再次对子序列进行直接插入排序；
 最终唯一**必须进行 gap=1 的分割**，进行一趟直接插入排序完成操作。
 
 ```
-for(gap=n/2;gap>0;gap=gap/2)        //分割序列
-		for(i=0;i<n;i++)
-			for(j=i+gap;j<n;j=j+gap)
-				if(arr[j]<arr[j-gap])       //若同组内序列非有序，则需插入
+for(gap=n/2;gap>0;gap=gap/2)      //分割序列
+	for(i=0;i<n;i++)
+		for(j=i+gap;j<n;j=j+gap)
+			if(arr[j]<arr[j-gap])     //若同组内序列非有序，则需插入
+			{
+				temp = arr[j];
+				k = j-gap;
+				while(k>=0 && arr[k]>temp)  //移动至合适位置插入过程
 				{
-					temp = arr[j];
-					k = j-gap;
-					while(k>=0 && arr[k]>temp)    //移动至合适位置插入过程
-					{
-						arr[k+gap] = arr[k];
-						k = k-gap;
-					}
-					arr[k+gap] = temp;
+					arr[k+gap] = arr[k];
+					k = k-gap;
 				}
+				arr[k+gap] = temp;
+			}
 
 ```
 - [希尔排序](https://github.com/SouthBegonia/Computer-Course/blob/master/Algorithm/Sort/%E6%8E%92%E5%BA%8F_%E6%8F%92%E5%85%A5%E7%B1%BB_%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F.cpp)
@@ -109,4 +114,24 @@ for(gap=n/2;gap>0;gap=gap/2)        //分割序列
 
 <h3 id="2.1">2.1 冒泡排序</h3>
 
+已知一个序列，例如 *arr[5]={9，7，5，3，1}*，从左往右，对每对相邻元素比较*(arr[0]-arr[1],arr[1]-arr[2],...,arr[n-2]-arr[n-1])*，**比较后将较大的元素后移**，经过一趟循环，会将当前序列内**最大元素移动至末尾**，即末尾元素有序，重复这种**相互比较、后移**的过程，该 *arr[]* 序列末尾部分即为有序序列。因此重复循环，使得有序序列长度++，无序序列长度--。最终当循环过程**不发生任何元素交换移动时**，标志冒泡排序结束。
+
+```
+for(i=n-1;i>=1;i--)         //每趟排序把最大元素移至后面
+{
+	flag = 0;
+	for(j=1;j<=i;j++)       //从左往右，相邻元素比较
+		if(arr[j-1]>arr[j]) //交换移动
+        {
+            temp = arr[j];
+            arr[j] = arr[j-1];
+            arr[j-1] = temp;
+            flag = 1;
+        }
+    if(flag==0)         //若某趟排序中没有发生交换，标志排序完毕
+        return;
+    }
+```
+- [冒泡排序](https://github.com/SouthBegonia/Computer-Course/blob/master/Algorithm/Sort/%E6%8E%92%E5%BA%8F_%E4%BA%A4%E6%8D%A2%E7%B1%BB_%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F.cpp)
+- 
 <h3 id="2.2">2.2 快速排序</h3>
