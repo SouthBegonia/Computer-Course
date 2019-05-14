@@ -70,9 +70,10 @@ for(i=1;i<n;i++)
 - [折半插入](https://github.com/SouthBegonia/Computer-Course/blob/master/Algorithm/Sort/%E6%8E%92%E5%BA%8F_%E6%8F%92%E5%85%A5%E7%B1%BB_%E6%8A%98%E5%8D%8A%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F.cpp)
 
 <h3 id="1.3">1.3 希尔排序</h3>
+
 参考：[lchad - 希尔排序C语言实现](https://blog.csdn.net/lchad/article/details/43564001)
 
-1. 将序列按照 **步长gap**(增量,初始 gap=length/2，后续 gap=gap/2) 分割为多个子序列,例如本例中的{49,38,65,97,76,13,27,49,55,04} 按照 gap=5 分割为：
+1. 将序列按照 **步长gap** (增量,初始 gap=length/2，后续 gap=gap/2) 分割为多个子序列,例如本例中的{49,38,65,97,76,13,27,49,55,04} 按照 gap=5 分割为：
 
 ```
 子序列1：49             13
@@ -116,9 +117,11 @@ for(gap=n/2;gap>0;gap=gap/2)      //分割序列
 
 
 <h2 id="2">2. 交换类排序</h2>
+
 - 交换类排序核心：对原序列进行元素交换移动实现排序。
 - 默认都为升序排序
-- 
+
+
 <h3 id="2.1">2.1 冒泡排序</h3>
 
 已知一个序列，例如 arr[5]={9，7，5，3，1}；
