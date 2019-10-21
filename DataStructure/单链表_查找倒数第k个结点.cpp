@@ -9,7 +9,7 @@ typedef struct LNode{
 }LNode;
 
 /*尾插法创建单链表*/
-void CreateList(LNode *&L, int a[], int n)
+L CreateList(LNode *&L, int a[], int n)
 {
 	LNode *r,*s;
 	L = (LNode *)malloc(sizeof(LNode));

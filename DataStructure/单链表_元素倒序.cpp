@@ -73,6 +73,8 @@ int main()
 	Displist(L);        //打印处理后的表
 
 	free(L);
+	getchar();
+	getchar();
 	return 0;
 }
 

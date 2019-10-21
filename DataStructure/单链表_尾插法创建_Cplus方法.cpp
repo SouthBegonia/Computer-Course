@@ -19,11 +19,11 @@ void createlistHead(LNode *&newlist, int a[], int n)
 {
 	int i;
 	LNode *s,*r;
-	
+
 	newlist = (LNode *)malloc(sizeof(LNode));
 	newlist->next = NULL;
 	r = newlist;
-	
+
 	for(i=0;i<n;i++)
 	{
 		s = (LNode *)malloc(sizeof(LNode));
