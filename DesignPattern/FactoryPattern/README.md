@@ -8,8 +8,8 @@
 - 抽象工厂模式（Abstract Factory）：允许多个工厂，一个工厂允许生产多种产品，通过工厂实例的不同方法来选择所要生产的产品
 
 ### 博文 / Github源码：
-- [工厂模式 - SouthBegonia's Blog]()
-- [工厂模式 - SouthBegonia's Github]()
+- [工厂模式 - SouthBegonia's Blog](https://www.cnblogs.com/SouthBegonia/p/11967904.html)
+- [工厂模式 - SouthBegonia's Github](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/Factory%20Pattern)
 
 # 简单工厂模式
 
