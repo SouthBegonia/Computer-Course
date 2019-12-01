@@ -16,3 +16,6 @@
 		- 二路归并排序
 		- 基数排序
 		- 外部排序 
+- [设计模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern)
+	- [单例模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/SingletonPattern)
+	- [工厂模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/FactoryPattern)
