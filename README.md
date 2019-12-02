@@ -19,3 +19,4 @@
 - [设计模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern)
 	- [单例模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/SingletonPattern)
 	- [工厂模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/FactoryPattern)
+	- [策略模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/StrategyPattern)
