@@ -22,3 +22,4 @@
 	- [策略模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/StrategyPattern)
 	- [观察者模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/ObserverPattern)
 	- [装饰模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/DecoratorPattern)
+	- [代理模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/ProxyPattern)
