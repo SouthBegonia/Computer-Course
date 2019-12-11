@@ -26,6 +26,7 @@
 - [观察者模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/ObserverPattern)
 - [装饰模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/DecoratorPattern)
 - [代理模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/ProxyPattern)
+- [模板方法模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/TemplateMethodPattern)
 
 ## 其他
-- [UML类图绘制](Computer-Course/tree/master/UML)
+- [UML类图绘制](https://github.com/SouthBegonia/Computer-Course/tree/master/UML)
