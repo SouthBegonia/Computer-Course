@@ -28,6 +28,7 @@
 - [代理模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/ProxyPattern)
 - [模板方法模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/TemplateMethodPattern)
 - [外观模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/FacadePattern)
+- [建造者模式](https://github.com/SouthBegonia/Computer-Course/tree/master/DesignPattern/BuilderPattern)
 
 ## 其他
 - [UML类图绘制](https://github.com/SouthBegonia/Computer-Course/tree/master/UML)
