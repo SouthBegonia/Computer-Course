@@ -1,0 +1,13 @@
+C:\Users\King\Desktop\Offer\OfferCode\bin\Debug\netcoreapp3.1\LinkedList.exe
+C:\Users\King\Desktop\Offer\OfferCode\bin\Debug\netcoreapp3.1\LinkedList.deps.json
+C:\Users\King\Desktop\Offer\OfferCode\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.json
+C:\Users\King\Desktop\Offer\OfferCode\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.dev.json
+C:\Users\King\Desktop\Offer\OfferCode\bin\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\King\Desktop\Offer\OfferCode\bin\Debug\netcoreapp3.1\LinkedList.pdb
+C:\Users\King\Desktop\Offer\OfferCode\obj\Debug\netcoreapp3.1\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\King\Desktop\Offer\OfferCode\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfoInputs.cache
+C:\Users\King\Desktop\Offer\OfferCode\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfo.cs
+C:\Users\King\Desktop\Offer\OfferCode\obj\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\King\Desktop\Offer\OfferCode\obj\Debug\netcoreapp3.1\LinkedList.pdb
+C:\Users\King\Desktop\Offer\OfferCode\obj\Debug\netcoreapp3.1\LinkedList.genruntimeconfig.cache
+C:\Users\King\Desktop\Offer\OfferCode\obj\Debug\netcoreapp3.1\LinkedList.csprojAssemblyReference.cache
