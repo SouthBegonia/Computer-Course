@@ -1,2 +1,23 @@
-# Builds
+*.[oa]
 *.exe
+*.cbp
+*.depend
+bin/
+obj/
+.exe
+*.layout
+.layout
+.vs/
+ 
+ 
+Debug/
+ipch/
+*.sln
+*.db
+*.vcxproj
+*.filters
+stdafx.h
+stdafx.cpp
+targetver.h
+StdAfx.h
+StdAfx.cpp
