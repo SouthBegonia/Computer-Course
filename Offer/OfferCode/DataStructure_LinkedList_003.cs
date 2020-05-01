@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 
-namespace OfferCode
+namespace Code003
 {
     public class ListNode
     {
@@ -45,18 +45,19 @@ namespace OfferCode
         public static List<ListNode> Init()
         {
             int[][] nums = new int[2][];
-            nums[0] = new int[] { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 }; 
+            nums[0] = new int[] { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
             nums[1] = new int[] { 10, 56, 34, 21, 56, 100, 96, 0, -10 };
 
+            int index = 0;
 
             List<ListNode> listNodes = new List<ListNode>();
 
-            for(int i=0;i< nums[1].Length;i++)
+            for (int i = 0; i < nums[index].Length; i++)
             {
-                listNodes.Add(new ListNode(nums[1][i]));
+                listNodes.Add(new ListNode(nums[index][i]));
             }
 
-            for(int i=0;i<listNodes.Count;i++)
+            for (int i = 0; i < listNodes.Count; i++)
             {
                 if (i + 1 < listNodes.Count)
                     listNodes[i].next = listNodes[i + 1];
