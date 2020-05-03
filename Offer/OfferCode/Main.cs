@@ -4,6 +4,7 @@ using Code003;
 using Code014;
 using Code015;
 using Code016;
+using Code025;
 
 namespace OfferCode
 {
@@ -21,7 +22,10 @@ namespace OfferCode
             //DataStructure_LinkedList_015.Run();
 
             // 016 合并两个单链表
-            DataStructure_LinkedList_016.Run();
+            //DataStructure_LinkedList_016.Run();
+
+            // 025 复杂链表的复制
+            DataStructure_LinkedList_025.Run();
         }
     }
 }
