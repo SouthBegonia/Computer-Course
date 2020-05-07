@@ -7,6 +7,7 @@ using Code016;
 using Code025;
 using Code036;
 using Code055;
+using Code056;
 
 namespace OfferCode
 {
@@ -33,7 +34,10 @@ namespace OfferCode
             //DataStructure_LinkedList_036.Run();
 
             // 055 链表中环的入口结点
-            DataStructure_LinkedList_055.Run();
+            //DataStructure_LinkedList_055.Run();
+
+            // 056 删除链表中重复的结点
+            DataStructure_LinkedList_056.Run();
         }
     }
 }
