@@ -4,33 +4,33 @@
 
 ## LinkedList
 
-- [x] 003-从尾到头打印链表
-- [x] 014-链表中倒数第k个结点
-- [x] 015-反转链表
-- [x] 016-合并两个或k个有序链表
-- [x] 025-复杂链表的复制：输入一个复杂链表（每个节点中有节点值，以及两个指针，一个指向下一个节点，另一个特殊指针random指向一个随机节点），请对此链表进行深拷贝，并返回拷贝后的头结点
-- [x] 036-两个链表的第一个公共结点：输入两个链表，找出它们的第一个公共结点
-- [x] 055-链表中环的入口结点：给一个链表，若其中包含环，请找出该链表的环的入口结点，否则，输出null
-- [x] 056-删除链表中重复的结点：在一个排序的链表中，存在重复的结点，请删除该链表中重复的结点，重复的结点不保留，返回链表头指针。 例如，链表1->2->3->3->4->4->5 处理后为 1->2->5
+- [x] [003-从尾到头打印链表](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/OfferCode/DataStructure_LinkedList_003.cs)
+- [x] [014-链表中倒数第k个结点](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/OfferCode/DataStructure_LinkedList_014.cs)
+- [x] [015-反转链表](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/OfferCode/DataStructure_LinkedList_015.cs)
+- [x] [016-合并两个或k个有序链表](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/OfferCode/DataStructure_LinkedList_016.cs)
+- [x] [025-复杂链表的复制](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/OfferCode/DataStructure_LinkedList_025.cs)：输入一个复杂链表（每个节点中有节点值，以及两个指针，一个指向下一个节点，另一个特殊指针random指向一个随机节点），请对此链表进行深拷贝，并返回拷贝后的头结点
+- [x] [036-两个链表的第一个公共结点](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/OfferCode/DataStructure_LinkedList_036.cs)：输入两个链表，找出它们的第一个公共结点
+- [x] [055-链表中环的入口结点](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/OfferCode/DataStructure_LinkedList_055.cs)：给一个链表，若其中包含环，请找出该链表的环的入口结点，否则，输出null
+- [x] [056-删除链表中重复的结点](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/OfferCode/DataStructure_LinkedList_056.cs)：在一个排序的链表中，存在重复的结点，请删除该链表中重复的结点，重复的结点不保留，返回链表头指针。 例如，链表1->2->3->3->4->4->5 处理后为 1->2->5
 
 ## Tree
 
-- [x] 004-重建二叉树：输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回。
+- [x] [004-重建二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_004.cs)：输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回
 
-- [ ] 017-树的子结构
-- [ ] 018-二叉树的镜像
-- [ ] 022-从上往下打印二叉树
-- [ ] 023-二叉搜索树的后序遍历序列
-- [ ] 024-二叉树中和为某一值的路径
-- [ ] 026-二叉搜索树与双向链表
-- [ ] 038-二叉树的深度
-- [ ] 039-平衡二叉树
-- [ ] 057-二叉树的下一个结点
-- [ ] 058-对称的二叉树
-- [ ] 059-按之字形顺序打印二叉树
-- [ ] 060-把二叉树打印成多行
-- [ ] 061-序列化二叉树
-- [ ] 062-二叉搜索树的第k个结点
+- [ ] [017-树的子结构](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_017.cs)
+- [ ] [018-二叉树的镜像](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_017.cs)
+- [ ] [022-从上往下打印二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_022.cs)
+- [ ] [023-二叉搜索树的后序遍历序列](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_023.cs)
+- [ ] [024-二叉树中和为某一值的路径](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_024.cs)
+- [ ] [026-二叉搜索树与双向链表](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_026.cs)
+- [ ] [038-二叉树的深度](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_038.cs)
+- [ ] [039-平衡二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_039.cs)
+- [ ] [057-二叉树的下一个结点](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_057.cs)
+- [ ] [058-对称的二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_058.cs)
+- [ ] [059-按之字形顺序打印二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_059.cs)
+- [ ] [060-把二叉树打印成多行](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_060.cs)
+- [ ] [061-序列化二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_061.cs)
+- [ ] [062-二叉搜索树的第k个结点](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_062.cs)
 
 ## Stack & Queue
 
