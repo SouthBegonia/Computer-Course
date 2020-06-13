@@ -90,7 +90,7 @@
 - [ ] 040-数组中只出现一次的数字
 
 ## 其他算法
-- [ ] 002-替换空格
+- [x] [002-替换空格](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Others/Algorithm_others_002.cs)：请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy
 - [ ] 013-调整数组顺序使奇数位于偶数前面
 - [ ] 028-数组中出现次数超过一半的数字
 - [ ] 031-整数中1出现的次数（从1到n整数中1出现的次数）
