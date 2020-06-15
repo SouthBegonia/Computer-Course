@@ -17,8 +17,8 @@
 
 - [x] [004-重建二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_004.cs)：输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回
 
-- [ ] [017-树的子结构](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_017.cs)：输入两棵二叉树A，B，判断B是不是A的子结构。（备注：空树不是任意一个树的子结构）
-- [ ] [018-二叉树的镜像](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_018.cs)：操作给定的二叉树，将其变换为源二叉树的镜像
+- [x] [017-树的子结构](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_017.cs)：输入两棵二叉树A，B，判断B是不是A的子结构。（备注：空树不是任意一个树的子结构）
+- [x] [018-二叉树的镜像](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_018.cs)：操作给定的二叉树，将其变换为源二叉树的镜像
 - [ ] [022-从上往下打印二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_022.cs)
 - [ ] [023-二叉搜索树的后序遍历序列](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_023.cs)
 - [ ] [024-二叉树中和为某一值的路径](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_024.cs)
@@ -91,7 +91,7 @@
 
 ## 其他算法
 - [x] [002-替换空格](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Others/Algorithm_others_002.cs)：请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy
-- [ ] 013-调整数组顺序使奇数位于偶数前面
+- [x] [013-调整数组顺序使奇数位于偶数前面](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Others/Algorithm_others_013.cs)：输入一个整数数组，实现一个函数来调整该数组中数字的顺序，使得所有的奇数位于数组的前半部分，所有的偶数位于数组的后半部分，并保证奇数和奇数，偶数和偶数之间的相对位置不变。
 - [ ] 028-数组中出现次数超过一半的数字
 - [ ] 031-整数中1出现的次数（从1到n整数中1出现的次数）
 - [ ] 032-把数组排成最小的数
