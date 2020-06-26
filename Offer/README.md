@@ -92,9 +92,9 @@
 ## 其他算法
 - [x] [002-替换空格](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Others/Algorithm_others_002.cs)：请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy
 - [x] [013-调整数组顺序使奇数位于偶数前面](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Others/Algorithm_others_013.cs)：输入一个整数数组，实现一个函数来调整该数组中数字的顺序，使得所有的奇数位于数组的前半部分，所有的偶数位于数组的后半部分，并保证奇数和奇数，偶数和偶数之间的相对位置不变。
-- [ ] [028-数组中出现次数超过一半的数字](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Others/Algorithm_others_028.cs)：数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字。例如输入一个长度为9的数组{1,2,3,2,2,2,5,4,2}。由于数字2在数组中出现了5次，超过数组长度的一半，因此输出2。如果不存在则输出0
+- [x] [028-数组中出现次数超过一半的数字](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Others/Algorithm_others_028.cs)：数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字。例如输入一个长度为9的数组{1,2,3,2,2,2,5,4,2}。由于数字2在数组中出现了5次，超过数组长度的一半，因此输出2。如果不存在则输出0
 - [ ] 031-整数中1出现的次数（从1到n整数中1出现的次数）
-- [ ] 032-把数组排成最小的数
+- [x] [032-把数组排成最小的数](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Others/Algorithm_others_032.cs)：输入一个正整数数组，把数组里所有数字拼接起来排成一个数，打印能拼接出的所有数字中最小的一个。例如输入数组{3，32，321}，则打印出这三个数字能排成的最小数字为321323
 - [ ] 033-丑数
 - [ ] 041-和为S的连续正数序列(滑动窗口思想)
 - [ ] 042-和为S的两个数字(双指针思想)
