@@ -20,7 +20,7 @@
 - [x] [017-树的子结构](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_017.cs)：输入两棵二叉树A，B，判断B是不是A的子结构。（备注：空树不是任意一个树的子结构）
 - [x] [018-二叉树的镜像](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_018.cs)：操作给定的二叉树，将其变换为源二叉树的镜像
 - [x] [022-从上往下打印二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_022.cs)：从上往下打印出二叉树的每个节点，同层节点从左至右打印
-- [ ] [023-二叉搜索树的后序遍历序列](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_023.cs)
+- [x] [023-二叉搜索树的后序遍历序列](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_023.cs)：输入一个整数数组，判断该数组是不是某二叉搜索树的后序遍历的结果。如果是则输出Yes,否则输出No。假设输入的数组的任意两个数字都互不相同
 - [ ] [024-二叉树中和为某一值的路径](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_024.cs)
 - [ ] [026-二叉搜索树与双向链表](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_026.cs)
 - [ ] [038-二叉树的深度](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_038.cs)
