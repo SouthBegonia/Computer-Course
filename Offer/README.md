@@ -95,7 +95,7 @@
 - [x] [028-数组中出现次数超过一半的数字](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Others/Algorithm_others_028.cs)：数组中有一个数字出现的次数超过数组长度的一半，请找出这个数字。例如输入一个长度为9的数组{1,2,3,2,2,2,5,4,2}。由于数字2在数组中出现了5次，超过数组长度的一半，因此输出2。如果不存在则输出0
 - [ ] 031-整数中1出现的次数（从1到n整数中1出现的次数）
 - [x] [032-把数组排成最小的数](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Others/Algorithm_others_032.cs)：输入一个正整数数组，把数组里所有数字拼接起来排成一个数，打印能拼接出的所有数字中最小的一个。例如输入数组{3，32，321}，则打印出这三个数字能排成的最小数字为321323
-- [ ] 033-丑数
+- [x] [033-丑数](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Others/Algorithm_others_033.cs)：把只包含质因子2、3和5的数称作丑数（Ugly Number）。例如6、8都是丑数，但14不是，因为它包含质因子7。 习惯上我们把1当做是第一个丑数。求按从小到大的顺序的第N个丑数
 - [ ] 041-和为S的连续正数序列(滑动窗口思想)
 - [ ] 042-和为S的两个数字(双指针思想)
 - [ ] 043-左旋转字符串(矩阵翻转)
