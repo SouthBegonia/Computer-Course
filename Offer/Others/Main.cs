@@ -3,6 +3,7 @@ using Code002;
 using Code013;
 using Code028;
 using Code032;
+using Code031;
 
 namespace Others
 {
@@ -19,8 +20,11 @@ namespace Others
             // 028 数组中出现次数超过一半的数字
             //Algorithm_others_028.Run();
 
+            // 031 整数中1出现的次数
+            Algorithm_others_031.Run();
+
             // 032 把数组排成最小的数
-            Algorithm_others_032.Run();
+            //Algorithm_others_032.Run();
         }
     }
 }
