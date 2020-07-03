@@ -57,7 +57,7 @@
 
 ## 斐波那契数列
 
-- [ ] 007-斐波拉契数列
+- [x] [007-斐波拉契数列](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/FibonaccSequence/Algorithm_FibonacciSequence_007.cs)：现在要求输入一个整数n（n<39），请你输出斐波那契数列的第n项（从0开始，第0项为0，第1项是1）
 - [ ] 008-跳台阶
 - [ ] 009-变态跳台阶
 - [ ] 010-矩形覆盖
