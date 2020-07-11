@@ -16,7 +16,6 @@
 ## Tree
 
 - [x] [004-重建二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_004.cs)：输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回
-
 - [x] [017-树的子结构](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_017.cs)：输入两棵二叉树A，B，判断B是不是A的子结构。（备注：空树不是任意一个树的子结构）
 - [x] [018-二叉树的镜像](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_018.cs)：操作给定的二叉树，将其变换为源二叉树的镜像
 - [x] [022-从上往下打印二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_022.cs)：从上往下打印出二叉树的每个节点，同层节点从左至右打印
@@ -24,7 +23,7 @@
 - [x] [024-二叉树中和为某一值的路径](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_024.cs)：输入一颗二叉树的根节点和一个整数，按字典序打印出二叉树中结点值的和为输入整数的所有路径。路径定义为从树的根结点开始往下一直到叶结点所经过的结点形成一条路径
 - [x] [026-二叉搜索树与双向链表](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_026.cs)：输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的双向链表。要求不能创建任何新的结点，只能调整树中结点指针的指向
 - [x] [038-二叉树的深度](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_038.cs)：输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度
-- [ ] [039-平衡二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_039.cs)
+- [x] [039-平衡二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_039.cs)：输入一棵二叉树，判断该二叉树是否是平衡二叉树。只需要考虑其平衡性，不需要考虑其是不是排序二叉树
 - [ ] [057-二叉树的下一个结点](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_057.cs)
 - [ ] [058-对称的二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_058.cs)
 - [ ] [059-按之字形顺序打印二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_059.cs)
