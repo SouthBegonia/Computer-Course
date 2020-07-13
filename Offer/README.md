@@ -25,7 +25,7 @@
 - [x] [038-二叉树的深度](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_038.cs)：输入一棵二叉树，求该树的深度。从根结点到叶结点依次经过的结点（含根、叶结点）形成树的一条路径，最长路径的长度为树的深度
 - [x] [039-平衡二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_039.cs)：输入一棵二叉树，判断该二叉树是否是平衡二叉树。只需要考虑其平衡性，不需要考虑其是不是排序二叉树
 - [x] [057-二叉树的下一个结点](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_057.cs)：给定一个二叉树和其中的一个结点，请找出中序遍历顺序的下一个结点并且返回。注意，树中的结点不仅包含左右子结点，同时包含指向父结点的指针
-- [ ] [058-对称的二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_058.cs)
+- [x] [058-对称的二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_058.cs)：请实现一个函数，用来判断一棵二叉树是不是对称的。注意，如果一个二叉树同此二叉树的镜像是同样的，定义其为对称的
 - [ ] [059-按之字形顺序打印二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_059.cs)
 - [ ] [060-把二叉树打印成多行](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_060.cs)
 - [ ] [061-序列化二叉树](https://github.com/SouthBegonia/Computer-Course/blob/master/Offer/Tree/DataStructure_Tree_061.cs)
