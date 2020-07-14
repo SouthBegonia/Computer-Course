@@ -1,6 +1,7 @@
 ﻿using System;
 using Code007;
 using Code008;
+using Code009;
 
 namespace FibonaccSequence
 {
@@ -12,7 +13,10 @@ namespace FibonaccSequence
             //Algorithm_FibonacciSequence_007.Run();
 
             // 008 跳台阶
-            Algorithm_FibonacciSequence_008.Run();
+            //Algorithm_FibonacciSequence_008.Run();
+
+            // 009 变态跳台阶问题
+            Algorithm_FibonacciSequence_009.Run();
         }
     }
 }
