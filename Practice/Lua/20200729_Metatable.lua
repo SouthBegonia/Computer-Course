@@ -22,3 +22,30 @@ mytable1 = setmetatable(
 		end
 	})
 print(mytable1.key1,mytable1.key2,mytable1.key3)
+print()
+
+
+-- __newindex元方法 --
+--[[
+当对表内不存在的索引赋值时，会调用__newindex方法
+--]]
+mymetatable2 = {}
+mytable2 = setmetatable(
+	{key1 = "value1"},
+	{__newindex = mymetatable2})
+print(mytable2.key1)
+
+mytable2.newkey = "新值2"	--对不存在的键赋值
+print(mytable2.newkey, mymetatable2.newkey)
+
+mytable2.key1 = "新值1"
+print(mytable2.key1, mymetatable2.key1)
+--[[
+mymetatable2 = {}
+mytable2 = setmetatable(
+	{key1 = "value1"},
+	{__newindex = function (  )
+		print("测试")
+	end})
+mytable2.newkey = "新值2"	--对不存在的键赋值
+--]]
