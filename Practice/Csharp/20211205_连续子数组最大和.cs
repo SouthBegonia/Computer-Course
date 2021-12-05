@@ -14,6 +14,7 @@ namespace CsharpExam
         }
 
         #region 连续子数组的最大和
+        // https://blog.csdn.net/m0_37925202/article/details/80816684
         static int GetMaxAddOfArray(int[] arr)
         {
             if (arr == null || arr.Length < 1)
