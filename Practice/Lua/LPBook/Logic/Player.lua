@@ -4,19 +4,26 @@
 --- DateTime: 2021/11/1 18:15
 ---
 
-local Person = {};
-function Person:create(name)
+---@class Player
+---@field public name string @名字
+local Player = {
+    name = "",
+};
+
+Player.__index = Player;
+
+function Player:create(name)
     local p = {};
 
-    self.__index = self;
-    setmetatable(p, Person);
+    setmetatable(p, Player);
 
     p.name = name;
+
     return p;
 end
 
-function Person:Talk(str)
-    print(self.name .. " : " .. str);
+function Player:Talk(str)
+    print(self.name .. " Talk: " .. str);
 end
 
-_G.Person = Person;  --设定为全局表
+_G.Player = Player;  --因为Player是local的，所以设定为全局表

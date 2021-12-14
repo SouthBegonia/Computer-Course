@@ -1,33 +1,26 @@
---m = {}
---m.__index = function(table, key)    -- 定义元表的__index方法
---    return "zzw - undefined";
---end
---
---pos = {
---    x = 1,
---    y = 2
---}
---print(pos.z);   -- pos为普通表，没有z成员
---
---setmetatable(pos, m);   -- 设定m为pos的元表
---
---print(pos.z);   -- pos无z成员，
-
+-- 设定Main配置的Working Directory = ...\Computer-Course\Practice\Lua\LPBook
 
 require("lfs")
 path = lfs.currentdir()
 package.path = package.path .. ";" .. path .. "/Logic/?.lua";
 
 
-
--- 类的测试
-function PersonTest()
+-- 类实现的测试
+function PlayerTest()
     require("Player");
+    require("SubPlayer");
 
-    local pa = Person:create("A");
-    local pb = Person:create("B");
-    pa:Talk("I'm A");
-    pb:Talk("I'm B");
+    ---@type Player
+    local pa = Player:create("A");
+    local pb = Player:create("B");
+    pa:Talk("\"I'm Player A\"");
+    pb:Talk("\"I'm Player B\"");
+
+    ---@type SubPlayer
+    local subPlayer = SubPlayer:create("subPlayer", 10);
+    subPlayer:Talk("\"I'm " .. subPlayer.name .. "  age = " .. subPlayer.age .. "\"");
+    subPlayer:ReName("subPlayerB");
+    subPlayer:Talk("\"I'm " .. subPlayer.name .. "  age = " .. subPlayer.age .. "\"");
 end
 
 -- 模块含 return luaTable 的测试
@@ -80,12 +73,14 @@ function BookTest()
 end
 
 do
-    -- PersonTest();
+    -- 类的实现、多态、继承
+    -- PlayerTest();
+
     -- ModuleTest();
     -- ModuleTest2();
     -- ModuleTest3();
 
-    BookTest()
+    -- BookTest()
 end
 
 
