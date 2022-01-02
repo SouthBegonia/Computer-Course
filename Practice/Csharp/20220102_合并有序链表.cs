@@ -1,6 +1,6 @@
 ﻿namespace CsharpExam
 {
-    public class _202220102_合并有序链表
+    public class _20220102_合并有序链表
     {
         public class ListNode
         {
