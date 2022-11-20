@@ -3,9 +3,9 @@
 namespace CsharpExam
 {
     /// <summary>
-    /// 94 二叉树的中序遍历  https://leetcode.cn/problems/binary-tree-inorder-traversal/
+    /// 144 二叉树的前序遍历  https://leetcode.cn/problems/binary-tree-preorder-traversal/submissions/
     /// </summary>
-    public class _20221117_InorderTraversal
+    public class _20221117_PreorderTraversal
     {
         public class TreeNode
         {
@@ -21,50 +21,30 @@ namespace CsharpExam
             }
         }
 
-        /*public IList<int> InorderTraversal(TreeNode root)
-        {
-            List<int> result = new List<int>();
-            DFS(result, root);
-            return result;
-        }
-
-        private void DFS(IList<int> result, TreeNode node)
-        {
-            if (node == null)
-                return;
-
-            DFS(result, node.left);
-            result.Add(node.val);
-            DFS(result, node.right);
-        }*/
-
-        /*
-        public IList<int> InorderTraversal(TreeNode root)
+        /*public IList<int> PreorderTraversal(TreeNode root)
         {
             List<int> result = new List<int>();
             Stack<TreeNode> stack = new Stack<TreeNode>();
 
+            stack.Push(root);
             TreeNode node;
-            while (stack.Count > 0 || root != null)
+            while (stack.Count > 0)
             {
-                if (root != null)
+                node = stack.Pop();
+                if (node != null)
                 {
-                    stack.Push(root);
-                    root = root.left;
-                }
-                else
-                {
-                    node = stack.Pop();
                     result.Add(node.val);
-                    root = node.right;
+                    if (node.right != null)
+                        stack.Push(node.right);
+                    if (node.left != null)
+                        stack.Push(node.left);
                 }
             }
 
             return result;
-        }
-        */
+        }*/
 
-        public IList<int> InorderTraversal(TreeNode root)
+        public IList<int> PreorderTraversal(TreeNode root)
         {
             List<int> result = new List<int>();
             Stack<TreeNode> stack = new Stack<TreeNode>();
@@ -76,14 +56,13 @@ namespace CsharpExam
                 //根节点及左侧全部节点入栈
                 while (curNode != null)
                 {
+                    result.Add(curNode.val);
                     stack.Push(curNode);
                     curNode = curNode.left;
                 }
 
-                //此节点的左子树遍历完毕，弹出记录，切换到右节点
-                TreeNode temp = stack.Pop();
-                result.Add(temp.val);
-                curNode = temp.right;
+                //此节点的左子树遍历完毕，切换到右节点
+                curNode = stack.Pop().right;
             }
 
             return result;
