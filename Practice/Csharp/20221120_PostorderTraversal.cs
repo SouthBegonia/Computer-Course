@@ -42,7 +42,7 @@ namespace CsharpExam
                 curNode = stack.Pop().left;
             }
 
-            //结果由 右左根 反转为 根左右（后序遍历）
+            //结果由 根右左 反转为 左右根（后序遍历）
             result.Reverse(0, result.Count);
 
             return result;
