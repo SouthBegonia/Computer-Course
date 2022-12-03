@@ -6,7 +6,7 @@ namespace CsharpExam
     /// <summary>
     /// 最小花费爬楼梯  https://www.nowcoder.com/practice/6fe0302a058a4e4a834ee44af88435c7?tpId=295&tqId=2366451&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj
     /// </summary>
-    public class _20221228_minCostClimbingStairs
+    public class _20221128_minCostClimbingStairs
     {
         public int minCostClimbingStairs(List<int> cost)
         {
