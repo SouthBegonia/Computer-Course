@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace CsharpExam
 {
@@ -10,13 +11,20 @@ namespace CsharpExam
         /*static void Main()
         {
             int[] testArr = new int[10];
-            for (int i = 0; i < testArr.Length; i++)
-                testArr[i] = i;
 
-            int[] ret = Shuffle(testArr);
-            foreach (int val in ret)
+            for (int n = 0; n < 10; n++)
             {
-                Console.Write($"{val}, ");
+                for (int i = 0; i < testArr.Length; i++)
+                    testArr[i] = i;
+
+                int[] ret = Shuffle(testArr);
+                foreach (int val in ret)
+                {
+                    Console.Write($"{val}, ");
+                }
+                Console.WriteLine();
+
+                Thread.Sleep(1000);
             }
         }*/
 
@@ -31,7 +39,7 @@ namespace CsharpExam
             Random random = new Random();
             for (int i = 0; i < len; i++)
             {
-                int randomIndex = random.Next(i, len - 1);
+                int randomIndex = random.Next(i, len);  //注意：Next()范围是 [minValue,maxValue)
                 Swap(ref ret[i], ref ret[randomIndex]);
             }
 
